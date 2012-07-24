@@ -3,7 +3,6 @@
 	<title>Tunnel Fader</title>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-	<script src='js/dat.gui.js'></script>	
 </head>
 <style type="text/css">
 html, body, #canvas{
@@ -37,14 +36,6 @@ var mx = 3;
 var my = 0;
 
 var objects = new Array();
-
-// setup FizzyText
-var DatDotGuiData = function() {
-	
-};
-// editable by user
-var data = new DatDotGuiData();
-
 
 function create(){
 	
@@ -191,19 +182,6 @@ $(document).mousemove(function(e){
 	mousex = e.pageX;
 	mousey = e.pageY;
 });
-
-/* DAT.GUI stuff */
-
-/* uncomment code to initialize dat.gui variables
-window.onload = function() {
-	
-	var gui = new dat.GUI();
-	
-	//gui.addColor(data, 'color').listen();
-	//gui.add(data, 'clear').listen();
-	
-};
-*/
 
 /* UTILITY FUNCTIONS */
 
