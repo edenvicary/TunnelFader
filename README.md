@@ -6,6 +6,8 @@ Usage
 -----
 Load the .html file in Chrome and it should work instantly.
 
+Or go here http://lab.kaiserapps.com/tunnelfader/index.html
+
 Creators
 --------
   - [Eden Vicary](https://github.com/EdenVicary)
